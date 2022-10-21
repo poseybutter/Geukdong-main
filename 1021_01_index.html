@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>극동건설</title>
+    <style>
+        @font-face {
+            font-family: notosans;
+            src: url(../fontawesome-free-6.2.0-web/webfonts/NotoSansKR-Regular.woff);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        body {
+            font-family: notosans;
+        }
+        header > div {
+            width: 1352px;
+            height: 100px;
+        }
+        .business {
+            background: #f0f0f0;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .business ul {
+            width: 1352px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 150px 0;
+        }
+        .business ul li {
+            width: 400px;
+            height: 300px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .business ul li p {
+            padding: 20px 0 0 20px;
+            color: #fff;
+        }
+        .business ul li:first-child {
+            background: url(../../극동건설/images/Rectangle\ 9.png);
+        }
+        .business ul li:nth-child(2) {
+            background: url(../../극동건설/images/Rectangle\ 10.png);
+        }
+        .business ul li:nth-child(4), .business ul li:nth-child(5),
+        .business ul li:nth-child(6) {
+            margin-top: 40px;
+        }
+        .business ul li:nth-child(5) {
+        background: url(../../극동건설/images/unsplash_l8fyK9RS-OU.png);
+        }
+        .business ul li:nth-child(6) {
+            background: url(../../극동건설/images/Rectangle\ 12.png);
+        }
+        .business ul li:nth-child(3) p{
+            color: #000;
+            font-size: 50px;
+            padding:0;
+            text-align: center;
+            line-height: 300px;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: space-between;
+            width: 1352px;
+            margin: 120px auto;
+        }
+        .portfolio > .left {
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .portfolio > .right ul {
+            display: flex;
+        }
+        .portfolio > .right ul li {
+            border: 1px solid #000;
+            width: 120px;
+            height: 61px;
+            text-align: center;
+            line-height: 61px;
+            margin-left: 10px;
+        }
+        .portfolio > .right ul li a {
+            color: #2b2c2e;
+        }
+        .portfolio > .right ul li:hover {
+            background: rgb(255, 183, 0);
+            font-weight: bold;
+            border: 2px solid #000;
+        }
+        .work {
+            display: flex;
+        }
+        .work_img > img {
+            width: 740px;
+            height: 520px;
+            overflow: hidden;
+        }
+        .work .left {
+            display: flex;
+            justify-content: end;
+        }
+        .left_wrap {
+            width: 60%;
+            height: 590px;
+            background: #f0f0f0;
+        }
+        .work .right {
+            width: 40%;
+            background: #fff;
+            color: #544C47;
+            margin: 0 70px;
+        }
+        .work .right > p:first-child {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .right > hr {
+            width: 10%;
+            margin-bottom: 40px;
+            border: 1px solid #544C47;
+        }
+        .work .right > p:nth-of-type(2) {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .work .right > p:nth-of-type(4) {
+            width: 207px;
+            height: 66px;
+            text-align: center;
+            line-height: 66px;
+            margin: 40px 0;
+            border: 1px solid #544C47;
+        }
+        .custom {
+            height: 677px;
+            background: url(../../극동건설/images/Rectangle\ 20.png) no-repeat fixed center/cover;
+        }
+        .custom .contents {
+            padding: 180px 0;
+            width: 1352px;
+            margin: 0 auto;
+            color: white;
+            text-align: center;   
+        }
+        .top {
+            font-size: 45px;
+            margin-bottom: 100px;
+        }
+        .contents ul {
+            display: flex;
+            justify-content: space-around;
+            width: 1280px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div></div>
+    </header>
+    <div class="business">
+        <ul>
+            <li><p>CIVIL<br>WORK</p></li>
+            <li><p>ARCHITECTURAL<br>WORKS</p></li>
+            <li><p>BUSINESS</p></li>
+            <li></li>
+            <li><p>PLANTS<br>ENVIRONMENTAL<br>WORK</p></li>
+            <li><p>OVERSEAS<br>BUSINESS</p></li>
+        </ul>
+    </div>           
+    <div class="portfolio">
+        <p class="left">PORTFOLIO</p>
+        <div class="right">
+            <ul>
+                <li><a href="#">토목</a></li>
+                <li><a href="#">건축</a></li>
+                <li><a href="#">플랜트·환경</a></li>
+                <li><a href="#">해외사업</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="work">
+        <div class="left_wrap">
+        <div class="left">
+            <div class="arrow_left">&lt;</div>
+            <div class="work_img">
+                <img src="../../극동건설/images/Rectangle 10.png" alt="건축">
+            </div>
+        </div>
+        </div>
+        <div class="right">
+            <p>공동주택</p><br><br>
+            <hr>
+            <p>HOUSINGS·ARCHITECTURAL WORKS</p>
+            <p>극동건설만의 독창적인 첨단 공법으로 건축공간의<br>패러다임을 바꿉니다.</p>
+            <div class="arrow_right">&lt;</div>
+            <p>Detatil view</p>
+        </div>
+    </div>
+    <div class="custom">
+        <div class="contents">
+            <div class="top">
+                <p>개개인의 특성과 능력을 중시하는 극동건설은<br>
+                여러분의 <b>성장의 터</b>를 마련합니다.</p>
+            </div>
+            <ul>
+               <li>
+                    <h3>인재상</h3><br>
+                    <p>극동건설이 추구하는 인재상을<br>여러분께 소개합니다.</p>
+                </li>
+                <li>
+                    <h3>인사제도</h3><br>
+                    <p>임직원의 역량향상과 동기부여를<br>위해 다양한 제도를 운영합니다.</p>
+                </li>
+                <li>
+                    <h3>채용안내</h3><br>
+                    <p>극동건설의 채용제도 및 절차를<br>자세히 소개합니다.</p>
+                </li>
+                <li>
+                    <h3>채용공고</h3><br>
+                    <p>극동건설의 채용공고를<br>소개합니다.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
